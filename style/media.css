@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;  
+        grid-template-areas:
+            "kit"
+            "burger"
+            "icon-bar"
+    }
+    .kit {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+    .exam{
+        display: none;
+    }
+    .icon-bar {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "kit"
+        "burger"
+        "icon-bar"
+    }
+    
+    .kit {
+        display:none;
+    }
+    .burger {
+        display: flex;
+    }
+    .exam{
+        display: none;
+    }
+    .icon-bar {
+        display: none;
+    }
+}
