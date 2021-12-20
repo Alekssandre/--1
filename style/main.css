@@ -72,7 +72,6 @@
   }
   .exam {
       display: grid;
-      padding-left: ;
       border-radius: 15px;
       margin-top: -700px;
       margin-left: -190px;
@@ -106,9 +105,27 @@
   img {
       border-radius: 15px;
   }
+  .icon-bars {
+      padding-left: 1540px;
+      color: black;
+      margin-top: -110px;;
+  }
    button {
       width: 250px;
       height: 50px;
       border-radius: 14px;
       margin-right:  30px;
+  }
+  .grid-containers {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: black;
+    margin-top: 190px;
+    width: 950px;
+    margin-left: 600px;
+  }
+  .grid-items {
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
   }
