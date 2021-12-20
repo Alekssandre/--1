@@ -1,27 +1,12 @@
-@media (max-width: 1024px) {
-    body {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;  
-        grid-template-areas:
-            "kit"
-            "burger"
-            "icon-bar"
-    }
-    .kit {
-        display: none;
-    }
-    .burger {
-        display: none;
-    }
-    .exam{
-        display: none;
-    }
-    .icon-bar {
-        justify-content: center;
+@media all and (max-width: 1024px) {
+    .header {
+        width:10%;
+        padding:0;
+        margin:0;
     }
 }
 
-@media (max-width: 480px) {
+@media all and (max-width: 480px) {
     body {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -29,6 +14,8 @@
         "kit"
         "burger"
         "icon-bar"
+        "grid-container"
+        "grid-item"
     }
     
     .kit {
@@ -42,5 +29,11 @@
     }
     .icon-bar {
         display: none;
+    }
+    .grid-container {
+        display: flex;
+    }
+    .grid-item {
+        display: flex;
     }
 }
